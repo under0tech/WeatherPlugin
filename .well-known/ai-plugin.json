@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Weather forecast",
+  "name_for_model": "weather_forecast",
+  "description_for_human": "Plugin for forecasting the weather conditions by latitude and longitude.",
+  "description_for_model": "Plugin for forecasting the weather conditions by latitude and longitude.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5139/swagger/v1/swagger.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:5139/.well-known/logo.png",
+  "contact_email": "misterd793@gmail.com",
+  "legal_info_url": "https://medium.com/@dmytrosazonov"
+}

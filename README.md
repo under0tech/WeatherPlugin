@@ -17,11 +17,11 @@ To create 'Weather forecasting' plugin for Chat GPT from scretch you have to:
 
    you have to uncheck '_Configure for HTTPS_' and choose '.NET 7.0' in the field '_Framework_' and click the button '_Create_'.
 
-   You will see the initially configure project as shown on the picture below
+   You will see the initially configure project as shown on the picture below.
 
    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/ee09f385-8d32-4fb2-86b2-a079e918761b)
 
-   Now you can remove default endpoint and supportive code as shown on the picture below
+   Now you can remove default endpoint and supportive code as shown on the picture below.
 
    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/bb1c9f98-2a20-4fc3-93fe-560d4a3ac3fc)
 
@@ -201,12 +201,12 @@ To create 'Weather forecasting' plugin for Chat GPT from scretch you have to:
     
     ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/e0d150cd-ded7-4491-b914-c8d29e90de73)
 
-14. Just click **Run F5** in your **Visual Studio** and observe the _Swagger_ as shown on the picture bellow
+14. Just click **Run F5** in your **Visual Studio** and observe the _Swagger_ as shown on the picture below
 
     ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/b431fd4f-d8ab-4a34-8a86-605a1cc37ebd)
     
 15. As you may see on the picture above, the port for your web API is different from that which we declared 
-    in our '_Program.cs_'. Adjust it to '**http://localhost:5139**' editing the file '_launchSettings.json_' as shown bellow
+    in our '_Program.cs_'. Adjust it to '**http://localhost:5139**' editing the file '_launchSettings.json_' as shown below
     ```json
     "profiles": {
     "http": {
@@ -252,7 +252,10 @@ To create 'Weather forecasting' plugin for Chat GPT from scretch you have to:
 
     ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/3bc45217-e007-469e-8125-a163450cffbd)
 
-If you have any questions, do not hesitate to ask me in **Twitter**: https://twitter.com/dmytro_sazonov
+Enjoy your initial encounter with broadening the capabilities of Chat GPT to include weather forecasting.
+What else would you add to Chat GPT?
+
+If you have any questions, feel free to reach me out on **Twitter**: https://twitter.com/dmytro_sazonov
 
    
 

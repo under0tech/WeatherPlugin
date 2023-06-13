@@ -25,6 +25,63 @@ To create 'Weather forecasting' plugin for Chat GPT from scretch you have to:
 
    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/bb1c9f98-2a20-4fc3-93fe-560d4a3ac3fc)
 
+2. Create new class 'GetWeatherResponse'
+   ```c#
+   ﻿namespace WeatherPlugin
+   {
+       public class GetWeatherResponse
+       {
+           public double temperature { get; set; }
+           public double windspeed { get; set; }
+           public double winddirection { get; set; }
+           public GetWeatherResponse() { }
+           public GetWeatherResponse(
+               double temperature,
+               double windspeed,
+               double winddirection)
+           {
+               this.temperature = temperature;
+               this.windspeed = windspeed;
+               this.winddirection = winddirection;
+           }
+       }
+   }
+   ```
+   we need this to parse the response from Weather API
+
+3. Add usings in the begining of 'Program.cs'
+   ```c#
+   using Microsoft.Extensions.FileProviders;
+   using System.Text.Json;
+   using WeatherPluginV1;
+   ```
+5. Add the constant with Weater API URL before the builder initialization
+   ```c#
+   const string WEATHER_API_URL = "https://api.open-meteo.com/v1/forecast?";
+   ```
+7. Add Cors to services before 'var app = builder.Build();'
+   ```c#
+   builder.Services.AddCors(options =>
+   {
+       options.AddPolicy("AllowAll", policy =>
+       {
+           policy.WithOrigins(
+               "https://chat.openai.com", 
+               "http://localhost:5139")
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+       });
+   });
+   ```
+9. and using them right after the build
+   ```c#
+   var app = builder.Build();
+   app.UseCors("AllowAll");
+   ```
+11. ddd
+
+   
+
 
 
 

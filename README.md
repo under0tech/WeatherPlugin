@@ -222,6 +222,35 @@ To create 'Weather forecasting' plugin for Chat GPT from scretch you have to:
 
 16. Now you are ready to test your plugin out in the Chat GPT UI.
 
+17. Open the Chat GPT (https://chat.openai.com/) and if you are the Chat GPT Plus user you have the options
+    GPT.3.5 or GPT 4.0. You have to choose GPT 4.0
+
+    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/17752c65-28f6-4105-ae27-a485d450b7eb)
+    
+    and 'Plugins'.
+
+    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/356db2b0-6845-45b3-8fcd-3122549f400f)
+
+    in the 'Plugin store' click the button 'Develop your own plugin'
+
+    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/5e940327-be8b-4d1f-8b0e-77fe413a37d4)
+
+    and put the URL to your local service into the field 'Domain' as shown on the picture above. Then click 'Find manifest file'
+
+    if everything is ok you will see
+
+    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/8123dac9-5752-49df-b52b-b7db24b88f4b)
+
+    Just click 'Install localhost plugin' to let Chat GPT use it in its chatbot UI
+
+    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/305c0e8a-7072-47bd-a1d6-7cd750e4bc3d)
+
+18. Now you can speak with your plugin as shown on the picture bellow
+
+    ![image](https://github.com/under0tech/WeatherPlugin/assets/113665703/3bc45217-e007-469e-8125-a163450cffbd)
+
+If you have questions, you can ask me in **Twitter**: https://twitter.com/dmytro_sazonov
+
    
 
 
